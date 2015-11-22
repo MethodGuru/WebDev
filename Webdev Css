@@ -1,0 +1,187 @@
+body{
+
+  background-image:url("images/paper.jpg") ;
+  
+}
+/** CLEARFIX. apply to any container to stretch around all floating elements within */
+/** This class only supports IE8 and up */
+.clearfix:after{
+  content:"";
+  display:table;
+  clear:both;
+}
+.test {
+  height:10%;
+  width:99%;
+}
+.test h2{
+  
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 50%;
+	line-height: 40%;
+}
+.top-nav{
+  background-color: #5f5f5f;
+  border-radius: 6px;
+  box-shadow:0 10px 6px -6px #777;
+  width:100%;
+  height:3%;
+}
+
+/**.top-nav nav{
+  
+  
+}**/
+.top-nav ul {
+  
+  text-align:left;
+  word-spacing:3px;
+  padding: 0px;
+  margin: 0px;
+ 
+}
+.top-nav li{
+ display:inline;
+ margin:0px;
+ padding:0px;
+}
+
+.top-nav a:hover{
+  background-color: #005f5f;
+}
+.top-nav a{
+  color:#f1f1f1;
+  text-decoration:none;
+  font: "Lucida sans Unicode","Lucida Grande", sans-serif;
+  display:inline-block;
+  font-size:25px;
+  margin:4px;
+  padding: 8px;
+}
+#main{
+  /* Make some room for a sticky footer */
+  min-height:100;
+  margin-bottom:-30px;
+}
+#main .equalizer{
+  overflow:hidden;
+}
+/* All direct children of the equal heights div adhere to this. */
+#main > .equalizer >* {
+  float:left;
+  margin-bottom:-9999em;
+  padding-bottom:9999em;
+}
+/* The side navigation gets a smaller portion of width. */
+#main .side-nav-left{
+  width:10%;
+}
+
+/* The content remainder*/
+#main #content{
+  width:70%;
+}
+#main .side-nav-left nav,
+#main #content > div:last-child{
+  margin-bottom:50px;
+}
+.side-nav-left nav {
+  /*float:left;*/
+  background-color: #5f5f5f;
+  box-shadow:0 10px 6px -6px #777;
+  border-radius: 6px;
+  padding: 15px;
+  margin: 15px;
+}
+
+.side-nav-left ul{
+  list-style: none;
+  padding:0; /*global reset*/
+  margin:0;
+  /*float:left;*/
+  
+}
+ 
+ .side-nav-left a:hover{
+   background-color: #005f5f;
+ }
+.side-nav-left a{
+  color:#f1f1f1;
+  text-decoration:none;
+  font: "Lucida sans Unicode","Lucida Grande", sans-serif;
+  font-size:30px;
+  text-align:center;
+  margin:2px;
+
+}
+
+#content section{
+  background-color: #5f5f5f;
+  width:50%;
+  height:50%;
+    float:left;
+    margin:4px;
+    box-shadow:0 10px 6px -6px #777;
+    border-radius: 6px;
+  
+}
+/*.section-1, .section-2{
+  background-color: #5f5f5f;
+  width:50%;
+  height:50%;
+    float:left;
+    margin:4px;
+    box-shadow:0 10px 6px -6px #777;
+    border-radius: 6px;
+
+}
+
+.section-1, .section-2 section{
+  
+}
+.section-1, .section-2 p{
+  font: "Lucida sans Unicode","Lucida Grande", sans-serif;
+  text-align:left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+*/
+
+#content section h1{
+  padding-left:15px;
+}
+#content section p{
+  font: "Lucida sans Unicode","Lucida Grande", sans-serif;
+  text-align:left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.footer {
+
+  /*background-color: #5f5f5f;
+  box-shadow:0 10px 6px -6px #777;*/
+  z-index:10;
+ position:fixed;
+ left:0;
+  bottom:0;
+  width:100%;
+  height:30px;
+
+}
+.footer .copyright {
+    width:96%;
+    margin: 0 2%;
+    background-color: #5f5f5f;
+    box-shadow:0 10px 6px -6px #777;
+}
+.footer .copyright p{
+  text-align:center;
+  margin:0;
+  font-size:15px;
+  line-height:30px;
+  /*list-style: none;*/
+  color:#f1f1f1;
+}
