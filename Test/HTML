@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+  <head lang="en-Us">
+    <title>News</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name= "author" content="Dennis Anao">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="description" content="A sample site that possibly be used for news or displaying information">
+    <link rel="stylesheet" type="text/css" href="WebDevSample.css">
+  </head>
+
+  <body>
+  <header>
+    <div class="test">
+      <h2>Header</h2>
+    </div>
+
+    <!--Top Navigation Block -->
+    <div class="top-nav">
+      <nav>
+        <ul>
+          <li><a href="Link">Link1</a></li>
+          <li><a class="active" href="link">Link2</a></li>
+          <li><a href="Link">Link3</a></li>
+          <li><a href="Link">Link4</a></li>
+        </ul>
+      </nav>
+    </div>
+</header>
+
+    
+    <section id="main" class="clearfix">
+      
+      <div class="equalizer">
+     <!--Side Navigation Block -->
+    <div class="side-nav-left">
+      <nav>
+        <ul>
+          <li><a href="Link">Link1</a></li>
+          <li><a href="Link">Link2</a></li>
+          <li><a href="Link">Link3</a></li>
+          <li><a href="Link">Link4</a></li>
+        </ul>
+      </nav>
+    </div>
+   
+   <section id="content">
+  <!--Main content-->
+
+  <div class="section-1">
+    <section>
+      <h1>Title</h1>
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+      </p>
+    </section>
+  </div>
+
+  <div class="section-2">
+   <section>
+     <h1>Title</h1>
+     <p>
+       Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+       </p>
+   </section>
+  </div>
+  
+  <!--<div class="section-3">
+   <section>
+     <h1>Title</h1>
+     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+   </section>
+  </div>-->
+
+  
+  </div><!-- /#content-->
+  </div><!-- /.equalizer-->
+  </div><!-- /#main-->
+  
+  <!-- Sticky Footer-->
+  <footer>
+  <div class="copyright">
+    <p>Copyright@Footer.com</p>
+  </div>
+</footer>
+  
+  </body>
+</html>
